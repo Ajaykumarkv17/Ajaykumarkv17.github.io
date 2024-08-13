@@ -21,21 +21,21 @@ const illustration = {
 
 const greeting = {
   username: "Ajaykumar K V ",
-  title: "Hi all, I am  Ajay",
+  title: "Hello all, I am  Ajay",
   subTitle: emoji(
-    "I am an  Ambitious Cloud Engineer with a B.E. in Computer Science and Engineering, possessing a strong interest in AI advancements. Combines technical skills with creative problem-solving to implement cutting-edge cloud and AI solutions."
+    "Hello! I'm Ajaykumar K V 👋, a passionate AI enthusiast and cloud engineer dedicated to transforming GenAI concepts into scalable, real-world applications. As a Certified Azure AI Associate and Google Cloud Digital Leader, I excel in utilizing cutting-edge frameworks such as Langchain, Huggingface, Llamaindex, and OpenAI API to develop innovative AI solutions. My mission is to unlock the vast potential of Large Language Models (LLMs) and apply that knowledge to solve complex challenges in the technology landscape 🚀."
   ),
   resumeLink:
-    "", // Set to empty to hide the button
+    "https", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/Ajaykumarkv17",
+  linkedin: "https://www.linkedin.com/in/ajaykumar-k-v-b80187247/",
+  gmail: "ajaykumarkv0317@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -60,18 +60,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -207,7 +195,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/yourusername/phishing-detection" // Replace with the actual GitHub URL
+          url: "https://github.com/Ajaykumarkv17/PhisingFights" // Replace with the actual GitHub URL
         }
       ]
     },
@@ -218,7 +206,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/yourusername/agrobot" // Replace with the actual GitHub URL
+          url: "https://github.com/Ajaykumarkv17/Agrobot" // Replace with the actual GitHub URL
         }
       ]
     },
@@ -229,7 +217,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/yourusername/freshebot" // Replace with the actual GitHub URL
+          url: "https://github.com/Ajaykumarkv17/interviewbot" // Replace with the actual GitHub URL
         }
       ]
     },
@@ -268,7 +256,7 @@ const achievementSection = {
       // Add the appropriate logo image in the assets folder
       
       footerLink: [
-        { name: "Certification", url: "https://www.your-certification-link.com" } // Replace with the actual certification URL
+        { name: "Certification", url: "https://learn.microsoft.com/api/credentials/share/en-gb/AJAYKUMARKV-8019/11A8DAC84AB2BF07?sharingId=36C394EFF4428235" } // Replace with the actual certification URL
       ]
     },
     {
@@ -312,24 +300,27 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With a passion for crafting innovative cloud solutions, I love sharing my insights and knowledge on AWS architectures and their practical applications.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.linkedin.com/pulse/aws-architecture-adventures-episode-2-designing-highly-kumar-k-v-01s0c/?trackingId=YfPrcXC4RwOs6dVpKQgjBg%3D%3D",
+      title:
+        "AWS Architecture Adventures: Designing a Highly Available Web Application Solution with AWS",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "In this episode, we're focusing on a high availability and scalability approach. This architecture showcases a highly available web application solution that leverages various AWS services, including Amazon CloudFront, Elastic Load Balancing (ELB), Elastic Compute Cloud (EC2), Auto Scaling, Relational Database Service (RDS), and Simple Storage Service (S3)."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.linkedin.com/pulse/aws-architecture-adventures-enhancing-customer-ajay-kumar-k-v-zct9c/?trackingId=YfPrcXC4RwOs6dVpKQgjBg%3D%3D",
+      title:
+        "AWS Architecture Adventures: Enhancing Customer Experience: AWS Bedrock-Powered Restaurant Booking Solution",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Today, we're shifting gears to focus on how emerging technologies like Amazon Bedrock can transform specific business processes - in this case, restaurant reservations. This solution demonstrates how AI and cloud services can be combined to create intelligent, automated systems that enhance customer experience and streamline operations."
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Talks Sections
 
@@ -369,7 +360,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
