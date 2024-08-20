@@ -77,6 +77,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-google"
     },
     {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
       skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
@@ -93,9 +97,22 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-       skillName: "Nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    }
+  
     
   ],
   display: true // Set false to hide this section, defaults to true
