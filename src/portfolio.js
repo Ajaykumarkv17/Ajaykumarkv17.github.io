@@ -61,45 +61,42 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Google cloud",
+      fontAwesomeClassname: "fab fa-google"
+    },
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3"
+    },
+    {
+      skillName: "Javascript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "ReactJS",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+       skillName: "Nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -264,7 +261,7 @@ const achievementSection = {
       subtitle: "Certified as a Google Cloud Digital Leader, showcasing my understanding of cloud technologies, digital transformation, and how to leverage Google Cloud solutions to drive business objectives. This certification highlights my strategic approach to cloud adoption.",
       
       footerLink: [
-        { name: "Certification", url: "https://www.your-certification-link.com" } // Replace with the actual certification URL
+        { name: "Certification", url: "https://www.credly.com/badges/02ed327b-97c4-4059-a983-d9e953014bc2/public_url" } // Replace with the actual certification URL
       ]
     },
     {
@@ -272,7 +269,7 @@ const achievementSection = {
       subtitle: "Completed the AWS Cloud Quest: Generative AI certification, focusing on the design and implementation of AI-driven applications using AWS services. This certification emphasizes my skills in building AI models that enhance decision-making and user engagement.",
     
       footerLink: [
-        { name: "Certification", url: "https://www.your-certification-link.com" } // Replace with the actual certification URL
+        { name: "Certification", url: "https://www.credly.com/badges/d02aa982-7033-4042-a562-cf12584063b2/public_url" } // Replace with the actual certification URL
       ]
     },
     {
@@ -280,15 +277,15 @@ const achievementSection = {
       subtitle: "Successfully completed a 6-month internship at Garrett Motion, where I developed advanced GenAI applications, contributing to projects like Feedback Analysis Assistant and customizable email rephrasing plugin. This experience reinforced my expertise in GenAI and cloud technologies.",
     
       footerLink: [
-        { name: "Completion Letter", url: "https://www.your-completion-letter-link.com" } // Replace with the actual letter URL
+        { name: "Completion Letter", url: "https://drive.google.com/file/d/1tnB3ig5qsTdC42DLK2VRXX9nurRuBL_r/view?usp=sharing" } // Replace with the actual letter URL
       ]
     },
     {
       title: "Google Cloud Arcade Challenge Winner",
-      subtitle: "Achieved a milestone by winning Google Cloud Hoodies and Bag through the completion of the Arcade Challenge, a competitive event hosted by Google Cloud and Qwiklabs. This achievement reflects my dedication to continuous learning and cloud technology proficiency.",
+      subtitle: "Achieved a milestone by winning Google Cloud Hoodies and Bag through the completion of the Arcade Challenge, a competitive event hosted by Google Cloud and Qwiklabs. This achievement reflects my dedication to continuous learning and cloud technology in google cloud.",
     
       footerLink: [
-        { name: "Details", url: "https://www.your-achievement-link.com" } // Replace with the actual achievement URL
+        { name: "Details", url: "https://drive.google.com/file/d/1w7Y2agPQC31hhw8hmLt0vM1DdHgfDavO/view?usp=sharing" } // Replace with the actual achievement URL
       ]
     }
   ],
